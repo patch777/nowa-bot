@@ -1,13 +1,13 @@
 /* Copyright (C) 2022 Sourav KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+Lucy MD - Ansantechy
 */
 const {
   FancyRandom,
   getListFromCommand,
   skbuffer
-} = require("raganork-bot");
+} = require("lucy-bot");
 const {
   Module,
   commands
@@ -31,7 +31,7 @@ Module({
   var buttons = [{
     urlButton: {
         displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        url: 'https://instagram.com/ansantechy?igshid=YmMyMTA2M2Y='
     }
 }, {
   urlButton: {
@@ -57,7 +57,7 @@ Module({
 var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : ${BOT_INFO.split(";")[1]}
+┃✩│ Owner :Ansan Techy 
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
